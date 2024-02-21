@@ -13,13 +13,13 @@ export default class App extends Component {
           <NavBar />
           <Routes>
             {/* <News country="in" category="science" /> */}
-            <Route path='News-App/' element={<News key="general" country="in" category="general" />} />
-            <Route path='News-App/entertainment' element={<News key="entertainment" country="in" category="entertainment" />} />
-            <Route path='News-App/health' element={<News key="health" country="in" category="health" />} />
-            <Route path='News-App/business' element={<News key="business" country="in" category="business" />} />
-            <Route path='News-App/science' element={<News key="science" country="in" category="science" />} />
-            <Route path='News-App/sports' element={<News key="sports" country="in" category="sports" />} />
-            <Route path='News-App/technology' element={<News key="technology" country="in" category="technology" />} />
+            <Route path='news-app-1/' element={<News key="general" country="in" category="general" />} />
+            <Route path='news-app-1/entertainment' element={<News key="entertainment" country="in" category="entertainment" />} />
+            <Route path='news-app-1/health' element={<News key="health" country="in" category="health" />} />
+            <Route path='news-app-1/business' element={<News key="business" country="in" category="business" />} />
+            <Route path='news-app-1/science' element={<News key="science" country="in" category="science" />} />
+            <Route path='news-app-1/sports' element={<News key="sports" country="in" category="sports" />} />
+            <Route path='news-app-1/technology' element={<News key="technology" country="in" category="technology" />} />
           </Routes>
         </BrowserRouter>
       </div>
